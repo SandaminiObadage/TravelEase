@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110529247246",
+    "project_id": "traveleasemad",
+    "storage_bucket": "traveleasemad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110529247246:android:acec6f99406f391f83245f",
+        "android_client_info": {
+          "package_name": "com.example.traveleasemad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWVzfO3GteOUKrsLU6iEuNzhHAfHp0CW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

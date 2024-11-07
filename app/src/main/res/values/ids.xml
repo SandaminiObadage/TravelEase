@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cardContainer" type="id" />
+    <item name="etHotelName" type="id" />
+    <item name="etLocation" type="id" />
+    <item name="etLatitude" type="id" />
+    <item name="etLongitude" type="id" />
+    <item name="etPrice" type="id" />
+    <item name="etCategory" type="id" />
+    <item name="etDescription" type="id" />
+    <item name="etImageUrl" type="id" />
+    <item name="etRating" type="id" />
+    <item name="imgHotelPhoto" type="id" />
+    <item name="btnUploadPhoto" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="btnDelete" type="id" />
+    <item name="btnModify" type="id" />
+</resources>

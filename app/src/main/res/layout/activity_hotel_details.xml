@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/walpe">
+
+
+    <ImageView
+        android:id="@+id/hotelImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hotel2"
+        android:contentDescription="Selected hotel image"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/hotelIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel ID: "
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/hotelNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Name: "
+        android:textStyle="italic"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/hotelDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thaproban Pavilion Resort"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:paddingBottom="16dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/checkInDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:hint="Check-In Date"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/checkOutDate"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:hint="Check-Out Date"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Number of Beds -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numberOfBeds"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:hint="Number of Beds"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Number of Adults -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numberOfAdults"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:hint="Number of Adults"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Number of Children -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numberOfChildren"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:hint="Number of Children"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bookNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Book Now"
+        android:textColor="#F4E9E9"
+        android:background="@drawable/rounded_corners"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Back"
+        android:textColor="#F4E9E9"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
